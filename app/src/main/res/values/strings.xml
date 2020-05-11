@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Spongemock</string>
+    <string name="process_text_action_name">Mock</string>
+</resources>
