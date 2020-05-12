@@ -4,7 +4,7 @@ This is a very simple android app, making use of the feature implemented with An
 individual options for the Text Selection Toolbar. This application takes a selected text and translates
 it to mock text, refering to the style known as sarcasm text or spongemock. 
 
-The android theme is set to NoDisplay in the Android Manifest, therefore he app isnt visible in the app launcher and has no gui.
+The android theme is set to NoDisplay in the Android Manifest, therefore the app isnt visible in the app launcher and has no gui.
 It works by registering an intent filter for the text action intent in the android manifest. Upon receiving such an intent,
 the activiys on create method executes the function that transforms the text passed along by the intent.
 It then checks wether the selected text is editable. If it is, it returns the transformed text as an intent itself. 
