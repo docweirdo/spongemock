@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Spongemock</string>
-    <string name="process_text_action_name">Mock</string>
+    <string name="app_name">Morbus Mock</string>
+    <string name="process_text_action_name_mock">Mock</string>
+    <string name="process_text_action_name_special">Specialize</string>
 </resources>

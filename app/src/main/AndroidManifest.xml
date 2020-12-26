@@ -11,7 +11,16 @@
         android:theme="@android:style/Theme.NoDisplay">
         <activity
             android:name=".MainActivity"
-            android:label="@string/process_text_action_name">
+            android:label="@string/process_text_action_name_mock">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpecialCharacters"
+            android:label="@string/process_text_action_name_special">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
