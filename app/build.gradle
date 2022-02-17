@@ -7,9 +7,9 @@ android {
     defaultConfig {
         applicationId "de.docweirdo.spongemock"
         minSdkVersion 23
-        targetSdkVersion 29
-        versionCode 3
-        versionName "1.2"
+        targetSdkVersion 30
+        versionCode 4
+        versionName "1.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

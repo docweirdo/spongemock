@@ -2,4 +2,5 @@
     <string name="app_name">Morbus Mock</string>
     <string name="process_text_action_name_mock">Mock</string>
     <string name="process_text_action_name_special">Specialize</string>
+    <string name="process_text_action_name_strike_through">Strike</string>
 </resources>
